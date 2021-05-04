@@ -1,25 +1,29 @@
 .hebergements
 {
-	width: 200px;
-	height: 200px;
+	width: 175px;
+	height: 175px;
 }
 
 .activites
 {
-	width: 200px;
-	height: 200px;
+	width: 175px;
+	height: 175px;
 }
 
 footer
 {
 display:flex;
+justify-content: space-around;
 
 }
-.A propos
+
+h3
 {
 display:flex;
+align-items: flex-end;
 }
-#menu
+
+menu
 {
 display: flex;
 justify-content:flex-end;
@@ -70,5 +74,32 @@ padding-right: 10px;
 
 
 
+}
+
+ul {
+list-style-type: none;
+
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu_haut 
+{
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+
+}
+  
+}
+ 
+
+#menu_haut a
+{
+   padding: 10px 10px;
 }
 
