@@ -103,3 +103,7 @@ list-style-type: none;
    padding: 10px 10px;
 }
 
+.left /*pictures for hebergements*/
+{
+display: flex;
+}
