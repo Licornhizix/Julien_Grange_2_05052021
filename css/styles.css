@@ -1,6 +1,25 @@
+@font-face {
+  font-family:'Raleway';
+  src: url('fonts/Raleway-VariableFont_wght.eot');
+  src: url('fonts/Raleway-VariableFont_wght?#iefix') format('embedded-opentype'),
+  url('fonts/Raleway-VariableFont_wght.woff') format('woff'),
+  url('fonts/Raleway-VariableFont_wght.ttf') format('truetype'),
+  url('fonts/Raleway-VariableFont_wght.svg#Raleway') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family:'Raleway';
+
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
 
 #menu {
@@ -8,9 +27,16 @@ header {
   width: 300px;
   justify-content: space-around;
   align-items: center;
+  
 }
 nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
   border: 1px solid red;
+  
 
 }
 
@@ -26,36 +52,55 @@ nav {
 	height: 175px;
 }
 
-footer
-{
-display:flex;
-justify-content: space-around;
+main {
+  margin-left: 30px;
+  margin-right: 30px;
 
 }
 
-h3 {
-  display:flex;
-  align-items: flex-end;
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #F2F2F2;
+  border-width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+
 }
 
 
-ul {
-  list-style-type: none;
+a {
+
+  display: flex;
+  justify-content: flex-start;
+
+  
+}
+
+#down {
+
+  padding-right: 300px;
+  
+
+
 }
 
 #searchbar {
-  border: 1px solid blue;
+
   display:flex;
   justify-content: flex-start;
   align-items: flex-end
-
-}
-#conteneur {
-    display: flex;
-    justify-content: space-between;
 }
 
+#logosearch {
+  display: flex;
+  align-items: flex-end
+  
+}
 
+#icon {
   
 
+}
 
