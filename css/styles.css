@@ -44,6 +44,7 @@ nav {
 {
 	width: 175px;
 	height: 175px;
+  float: left;
 }
 
 .activites
@@ -86,12 +87,7 @@ a {
 
 }
 
-#searchbar {
 
-  display:flex;
-  justify-content: flex-start;
-  align-items: flex-end
-}
 
 #logosearch {
   display: flex;
