@@ -17,8 +17,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
   
 }
 
@@ -33,29 +33,47 @@ nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-left: 30px;
-  margin-right: 30px;
-  border: 1px solid red;
+  margin-left: 20%;
+  margin-right: 20%;
+  
   
 
 }
 
-.hebergements
-{
-	width: 175px;
-	height: 175px;
-  float: left;
+.left {
+  width: 75%;
+}
+.photoright {
+  display: flex;
+  flex-direction: column;
+
 }
 
-.activites
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  
+  width: 10%;
+}
+.one, .two, .three, .four, .five, .six  
 {
-	width: 175px;
-	height: 175px;
+  width: 260px;
+  height: 260px;
+}
+
+.seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen
+{
+	width: 250px;
+	height: 250px;
+
 }
 
 main {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 80%;
+  
 
 }
 
@@ -64,8 +82,9 @@ footer {
   justify-content: flex-start;
   background-color: #F2F2F2;
   border-width: 100%;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
   
 
 }
@@ -77,6 +96,14 @@ a {
   justify-content: flex-start;
 
   
+}
+
+.leftright {
+
+  display: flex;
+  justify-content: space-between;
+
+
 }
 
 #down {
@@ -96,7 +123,8 @@ a {
 }
 
 #icon {
-  
+
 
 }
+
 
