@@ -42,6 +42,8 @@ nav {
 
 .left {
   width: 75%;
+  border: blue solid 1px;
+  border-radius: 30px;
 }
 .photoright {
   display: flex;
@@ -53,6 +55,9 @@ nav {
 .right {
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  border: blue solid 1px;
+  border-radius: 30px;
   
   width: 10%;
 }
@@ -60,32 +65,33 @@ nav {
 {
   width: 260px;
   height: 260px;
+  padding: 10px;
+  border: blue solid 1px;
+  border-radius: 30px;
 }
 
 .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen
 {
 	width: 250px;
 	height: 250px;
+  padding: 10px;
+  border: blue solid 1px;
+  border-radius: 30px;
 
 }
 
 main {
   margin-left: 20%;
   margin-right: 20%;
-  height: 80%;
+  height: 100%;
   
 
 }
 
 footer {
-  display: flex;
-  justify-content: flex-start;
-  background-color: #F2F2F2;
-  border-width: 100%;
-  margin-left: 20%;
-  margin-right: 20%;
-  
-  
+  padding-bottom: 2rem;
+
+
 
 }
 
@@ -105,15 +111,6 @@ a {
 
 
 }
-
-#down {
-
-  padding-right: 300px;
-  
-
-
-}
-
 
 
 #logosearch {
