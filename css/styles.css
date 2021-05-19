@@ -72,8 +72,8 @@ nav {
 
 .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen
 {
-	width: 250px;
-	height: 250px;
+  width: 250px;
+  height: 250px;
   padding: 10px;
   border: blue solid 1px;
   border-radius: 30px;
@@ -89,7 +89,13 @@ main {
 }
 
 footer {
-  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+  background-color: #F2F2F2;
+  border-width: 100%;
+  padding: 2% 10% 2% 25%;
+  font-size: 60%;
 
 
 
@@ -100,6 +106,9 @@ a {
 
   display: flex;
   justify-content: flex-start;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-decoration: none;
 
   
 }
@@ -110,6 +119,15 @@ a {
   justify-content: space-between;
 
 
+}
+
+a:hover {
+  color: blue;
+  
+}
+
+#menu > a:hover {
+  border-top: blue solid 1px;
 }
 
 
@@ -123,5 +141,4 @@ a {
 
 
 }
-
 
