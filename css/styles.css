@@ -35,47 +35,102 @@ nav {
   flex-direction: column;
   margin-left: 20%;
   margin-right: 20%;
+
   
-  
+}
+
+.leftright {
+
+  display: flex;
+  justify-content: space-between;
+
 
 }
 
 .left {
   width: 75%;
-  border: blue solid 1px;
   border-radius: 30px;
+  background-color: #F2F2F2;
+  
+  
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #F2F2F2;
+  width: 30%;
+  height: 30%;
+}
+
+.bottom {
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px; 
+  margin-top: 5%;
+  margin-bottom: -10%;
+}
+
+.photoleft {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  height: 100%;
+  
+
 }
 .photoright {
   display: flex;
   flex-direction: column;
 
 }
+.photobottom {
+
+  display: flex;
+  justify-content: center;
+
 
 }
-.right {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: blue solid 1px;
-  border-radius: 30px;
-  
-  width: 10%;
+
+
+.individual {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px; 
+
 }
+
+.dual {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+
 .one, .two, .three, .four, .five, .six  
 {
   width: 260px;
   height: 260px;
   padding: 10px;
-  border: blue solid 1px;
   border-radius: 30px;
 }
 
-.seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen
+.seven, .eight, .nine, .eleven, .twelve, .thirteen, .fourteen, .fifteen
 {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
   padding: 10px;
-  border: blue solid 1px;
+  border-radius: 30px;
+
+}
+
+.ten {
+  width: 150%;
+  height: 200%;
+  padding: 10px;
   border-radius: 30px;
 
 }
@@ -96,6 +151,7 @@ footer {
   border-width: 100%;
   padding: 2% 10% 2% 25%;
   font-size: 60%;
+  
 
 
 
@@ -113,32 +169,24 @@ a {
   
 }
 
-.leftright {
-
-  display: flex;
-  justify-content: space-between;
-
-
-}
-
 a:hover {
   color: blue;
   
 }
 
+#menu a {
+  color: #0065FC;
+}
+
 #menu > a:hover {
   border-top: blue solid 1px;
+  color: #DEEBFF;
+
 }
 
 
 #logosearch {
   display: flex;
-  align-items: flex-end
-  
-}
-
-#icon {
-
-
+  align-items: flex-end 
 }
 
