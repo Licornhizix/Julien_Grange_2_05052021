@@ -124,6 +124,7 @@
         justify-content: space-between;
 
 
+
       }
 
 
@@ -140,15 +141,7 @@
         object-fit: contain;
 
       }
-      .seven, .eight, .nine {
-        width: 95%;
-        border-radius: 30px;
-        margin: 1%;
-        position: relative;
-        padding-right: 1%;
 
-
-      }
       .dual {
         display: flex;
         flex-direction: column-reverse;
@@ -161,17 +154,26 @@
       {
         width: 95%;
         height: 260px;
-        
+        object-fit: cover;
         margin: 2%;
         border-radius: 25px;
+      }
+
+      .seven, .eight, .nine {
+        width: 95%;
+        border-radius: 30px;
+        margin: 1%;
+        position: relative;
+        padding-right: 1%;
+        object-fit: cover;
+
       }
 
       .eleven, .twelve, .fourteen, .fifteen
       {
         min-width: 95%;
-        min-height: 80%;
-
-        padding: 10px;
+        min-height: 50%;
+        object-fit: cover;
         border-radius: 30px;
         box-shadow: 10px 5px 5px #F2F2F2;
 
@@ -191,21 +193,19 @@
 
       .ten {
         min-width: 95%;
-        min-height: 195%;
-
-        padding: 10px;
+        min-height: 195%;    
         border-radius: 30px;
         box-shadow: 10px 10px 10px #F2F2F2;
+        object-fit: cover;
 
       }
 
       .thirteen {
         min-width: 95%;
         min-height: 195%;
-
-        padding: 10px;
         border-radius: 30px;
         box-shadow: 10px 10px 10px #F2F2F2;
+        object-fit: cover;
 
       }
 
@@ -254,15 +254,62 @@
 
       #menu > a:hover {
         border-top: blue solid 1px;
-        color: #DEEBFF;
+        color: blueviolet;
+
+      }
+
+      #menu > a:active {
+        color: red;
+      }
+
+      #searchbar {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
 
       }
 
 
       #logosearch {
         display: flex;        
-        align-items: flex-end 
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #F2F2F2;
       }
+
+      #searchleft {
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #0065FC;
+        height: 50px;
+        width: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      input {
+
+        height: 46px;
+        
+        border-top: #F2F2F2 1px solid;
+        border-bottom: #F2F2F2 1px solid;
+        border-right: none;
+        border-left: none;
+        font-weight: bold;
+        color: black;
+      }
+      input::placeholder{
+        color: black;
+      }
+      
+
 
       .iconbar {
         padding-top: 2%;
@@ -300,7 +347,8 @@
         width: auto;
         border-radius: 40px;
         border: 3px #F2F2F2 solid;
-       
+        margin-left: 3px;
+        
         
 
       }
@@ -355,6 +403,7 @@
         font-size: 15px;
         white-space: normal;
         margin-left: 1%;
+        white-space: nowrap;
 
       }
       .righttext h3 {
@@ -367,13 +416,13 @@
       }
       .bottomtext2 {
         position: absolute;
-        top: 160%;
+        top: 175%;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         background-color: white;
         color: black;
         width: 100%;
-        height: 40%;
+        height: 20%;
 
         
 
@@ -396,7 +445,7 @@
         border-bottom-right-radius: 30px;
         background-color: white;
         color: black;
-        width: 95%;
+        width: 100%;
         height: 40%;
       }
 
@@ -414,4 +463,137 @@
 
         color: black;
 
+      }
+
+      @media screen and (max-width: 1024px)
+      {
+
+
+
+        header {
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+
+        }
+
+        #menu {
+          display: flex;
+          width: 300px;
+          justify-content: space-around;
+          align-items: center;/* Rédigez vos propriétés CSS ici */
+          flex-direction: column;
+        }
+
+
+        nav {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          
+
+        }
+
+        h1 {
+
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          font-size: 20px;
+
+        }
+
+
+        .iconbar {
+          padding-top: 2%;
+
+          display: flex;
+          justify-content: center;
+          width: 70%;
+          align-content: center;
+
+
+
+        }
+
+        .exclamation {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        main {
+
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .leftright {
+
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+
+        }
+
+        
+
+        .bottom {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+        }
+
+        .righttext {
+          position: absolute;
+          bottom: 25px;
+          border-bottom-left-radius: 30px;
+          border-bottom-right-radius: 30px;
+          background-color: white;
+          color: black;
+          width: 95%;
+          height: 35%;
+
+
+
+        }
+
+
+
+        .photoright {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-gap: 1em;
+          height: 100%;
+          margin-right: 2%;
+
+
+        }
+
+
+        .right {
+          padding-left: 2%;
+          width: 75%;
+          border-radius: 30px;
+          background-color: #F2F2F2;
+          margin-right: 3%;
+
+        }
+
+        .seven, .eight, .nine {
+
+          width: 95%;
+          height: 260px;
+          object-fit: cover;
+          margin: 2%;
+          border-radius: 25px;
+
+        }
       }

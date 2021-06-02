@@ -4,12 +4,13 @@
   <link href="fontawesome-free-5.15.3-web\css\all.css" rel="stylesheet"/>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="icon" href="images/logo/favicon.png" type="image/png">
   <title>Reservia</title>
 </head>
 
 <body>
   <header>
-    <img class="logo" src="images/logo/Reservia.svg" alt="Reservia@3x.png"/>
+    <div><img class="logo" src="images/logo/Reservia.svg" alt="Reservia@3x.png"/></div>
     <div id="menu">
       <a href="#main">Hébergements</a>
       <a href="#activites">Activités</a>
@@ -21,9 +22,9 @@
     <h1>Trouvez votre hebergement pour des vacances de rêve</h1>
     <p>En plein centre ville ou en pleine nature</p>
     <div id="searchbar">
-      <div id="logosearch"><i class="fas fa-map-marker-alt"></i>
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit">Rechercher</button>
+      <div id="logosearch"><i class="fas fa-map-marker-alt"></i></div>
+        <input type="text" placeholder="Marseille, France" name="search">
+        <a href=""><span id="searchleft" type="submit">Rechercher</span></a>
       </div>
     </div>
     <div class="iconbar">
@@ -34,7 +35,7 @@
            <div class="btntxt"><a href=""><span class="icon"><i class="fas fa-dog"></i></span><p id="animals">Animaux autorisés</p></a></div>
           </div>
           <div class="exclamation"><i class="fas fa-info-circle" id="exclamation"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p></div>
+            <p id="undericon">Plus de 500 logements sont disponibles dans cette ville</p></div>
 
 
 
