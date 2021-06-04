@@ -1,4 +1,4 @@
-     /*Polices*/
+     /*_______________________________________________________________Polices______________________________________________________________________________*/
 
      @font-face {
       font-family:'Raleway';
@@ -25,7 +25,7 @@
 
     }
 
-    /*En tête : Menu de navigation en haut a droite*/
+    /*______________________________________________________En tête : Menu de navigation en haut a droite____________________________________________________*/
 
     #menu {
       display: flex;
@@ -37,7 +37,7 @@
 
 
 
-    /*En tête : Menu de navigation en haut a droite > Effets au passage du curseur*/
+    /*_____________________________________________En tête : Menu de navigation en haut a droite > Effets au passage du curseur_________________________________*/
 
     #menu a {
       color: #0065FC;
@@ -53,14 +53,14 @@
       color: red;
     }
 
-    /*En tête : Menu de navigation en haut a droite > ligne au dessus de hebergement*/
+    /*_____________________________________________En tête : Menu de navigation en haut a droite > ligne au dessus de hebergement____________________________________*/
 
     #hebergements {
 
       border-top: blue solid 1px;
     }
 
-    /*Partie filtre et barre de recherche*/
+    /*__________________________________________________________________Partie filtre et barre de recherche___________________________________________________________*/
 
     nav {
       display: flex;
@@ -70,8 +70,8 @@
       margin-right: 20%;
     }
 
-    /*barre de recherche*/
-    
+    /*___________________________________________________________________________barre de recherche______________________________________________________________________*/
+
     #searchbar {
 
       display: flex;
@@ -178,7 +178,19 @@
       margin-right: 2%;
     }
 
-    /*Partie centrale*/
+
+    p{
+
+      display: flex;
+      justify-content: flex-start;
+      font-size: 15px;
+      white-space: normal;
+      margin-left: 1%;
+      white-space: nowrap;
+
+    }
+
+    /*________________________________________________________________________Partie centrale_________________________________________________________________*/
 
 
     main {
@@ -212,7 +224,7 @@
   }
 
 
-  /* Partie centrale (hebergements à Marseille)*/
+  /* ______________________________________________________________Partie centrale (hebergements à Marseille)________________________________________________________*/
 
   .left {
     padding-left: 2%;
@@ -242,7 +254,39 @@
   }
 
 
-  /* Partie centrale (Les plus populaires)*/
+  .bottomtext {
+    position: absolute;
+    bottom: 25px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+    color: black;
+    width: 95%;
+    height: 35%;
+
+
+  }
+
+  .bottomtext h3, p, .star {
+
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    white-space: normal;
+    margin-left: 1%;
+
+  }
+  .bottomtext h3 {
+    margin-top: 10%;
+
+  }
+  .bottomtext .star {
+    color: #0065FC;
+
+  }
+
+
+  /* _____________________________________________________________Partie centrale (Les plus populaires)___________________________________________________________________*/
 
   .right {
     display: flex;
@@ -286,7 +330,38 @@
 
   }
 
-  /* Partie centrale (Activités à Marseille)*/
+
+  .righttext {
+    position: absolute;
+    left: 45%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 55%;
+    margin: 1%;
+  }
+  .righttext h3, .righttext p, .star {
+
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    white-space: normal;
+    margin-left: 1%;
+
+  }
+
+  .righttext h3 {
+    margin-top: 10%;
+
+  }
+  .righttext .star {
+    color: #0065FC;
+
+  }
+
+  /* _________________________________________________________________Partie centrale (Activités à Marseille)_____________________________________________________*/
 
   .bottom {
     width: 100%;
@@ -347,7 +422,12 @@
 
 
 
-  /* Pied de page*/
+  
+
+
+
+
+  /* ____________________________________________________________________________________Pied de page_____________________________________________________________*/
 
   footer {
     display: flex;
@@ -377,82 +457,6 @@
 
   }
 
-  
-
-  
-
-  .bottomtext {
-    position: absolute;
-    bottom: 25px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background-color: white;
-    color: black;
-    width: 95%;
-    height: 35%;
-
-
-  }
-
-  .bottomtext h3, p, .star {
-
-    display: flex;
-    justify-content: flex-start;
-    font-size: 15px;
-    white-space: normal;
-    margin-left: 1%;
-
-  }
-  .bottomtext h3 {
-    margin-top: 10%;
-
-  }
-  .bottomtext .star {
-    color: #0065FC;
-
-  }
-
-  .righttext {
-    position: absolute;
-    left: 45%;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    background-color: white;
-    color: black;
-    height: 100%;
-    width: 55%;
-    margin: 1%;
-  }
-  .righttext h3, .righttext p, .star {
-
-    display: flex;
-    justify-content: flex-start;
-    font-size: 15px;
-    white-space: normal;
-    margin-left: 1%;
-
-  }
-
-  p{
-
-    display: flex;
-    justify-content: flex-start;
-    font-size: 15px;
-    white-space: normal;
-    margin-left: 1%;
-    white-space: nowrap;
-
-  }
-
-
-  .righttext h3 {
-    margin-top: 10%;
-
-  }
-  .righttext .star {
-    color: #0065FC;
-
-  }
   .bottomtext2 {
     position: absolute;
     top: 175%;
@@ -506,7 +510,7 @@
 
 
 
-  /* partie responsive*/
+  /*__________________________________________________________partie responsive______________________________________________________________________________________*/
 
 
 
