@@ -500,18 +500,18 @@
     justify-content: flex-start;
     font-size: 12px;
     white-space: normal;
-    margin-left: 1%;
-    margin-top: 5%;
+    margin-left: 2%;
+    margin-top: 4%;
   }
 
   .bottomtext3 {
     position: absolute;
-    top: 60%;
+    bottom: 0%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: white;
     color: black;
-    width: 210px;
+    width: 100%;
     height: 40%;
   }
 
@@ -521,8 +521,8 @@
     justify-content: flex-start;
     font-size: 12px;
     white-space: normal;
-    margin-left: 1%;
-    margin-top: 5%;
+    margin-left: 2%;
+    margin-top: 4%;
   }
 
 
