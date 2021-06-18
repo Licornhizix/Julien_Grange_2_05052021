@@ -47,7 +47,7 @@
       }
 
       .logo {
-        width: 100%;
+        width: 200px;
         height: auto;
 
 
@@ -239,8 +239,8 @@
 
 
       main {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
 
 
       }
@@ -252,6 +252,8 @@
         display: flex;
         justify-content: space-between;
         height: 700px;
+        width: 100%;
+        margin-bottom: 5%;
 
 
       }
@@ -276,10 +278,10 @@
 
       .left {
         padding: 3%;
-        width: 70%;
+        width: 80%;
         border-radius: 20px;
         background-color: #F2F2F2;
-        margin-right: 0%;  
+        margin-right: 5%;  
         display: flex;
         flex-direction: column;
 
@@ -396,6 +398,9 @@
     .photoright {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
       width: 100%;
 
     }
@@ -440,6 +445,7 @@
 
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     font-size: 12px;
     white-space: normal;
     margin-left: 1%;
@@ -452,6 +458,8 @@
   }
   .righttext .star {
     color: #0065FC;
+    display: flex;
+    justify-content: center;
 
   }
 
@@ -525,7 +533,7 @@
   .bottomtext2 h3 {
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     font-size: 12px;
     white-space: normal;
     margin-left: 2%;
@@ -560,6 +568,9 @@
 
 
 
+
+
+
   /* ____________________________________________________________________________________Pied de page_____________________________________________________________*/
 
   footer {
@@ -569,7 +580,8 @@
     background-color: #F2F2F2;
     border-width: 100%;
     padding: 2% 10% 2% 10%;
-    font-size: 75%;
+    width: 100%;
+    
 
   }
 
@@ -578,9 +590,11 @@
 
     display: flex;
     justify-content: flex-start;
+
     padding-top: 5%;
     padding-bottom: 5%;
     text-decoration: none;
+    font-size: 12px;
 
 
   }
@@ -603,89 +617,178 @@
   /*__________________________________________________________partie responsive______________________________________________________________________________________*/
 
 
-  /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+  /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 500px et 1024px */
 
-  @media all and (min-width: 480px) and (max-width: 1080px)
+  @media all and (min-width: 500px) and (max-width: 1024px)
 
   {
 
    body {
     margin-left: 0%;
     margin-right: 0%;
+
   }
 
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: stretch;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
 
+
+  .clic {
+
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
 
   }
 
   .logo {
-    width: 200px;
-    height: auto;
 
-
+    width: 300px;
   }
 
 
 
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
 
   #menu {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: all;
-    font-size: 40px;
+    font-size: 2em;
+    margin-left: 50%;
+    
     
 
 
+    
   }
 
 
   nav {
+    display: block;
+    
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    
-    width: 90%;
-    
 
   }
-
-
-
-  
 
   h1 {
 
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 2em;
 
   }
 
-  .nature {
-    font-size: 30px;
+
+
+  .filtres {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1em;
 
   }
+
+  #icon {
+
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .txt {
+
+    margin-left: 15px;
+    font-size: 1,5em;
+
+  }
+
+  .icntxt {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border-radius: 40px;
+    border: 3px #F2F2F2 solid;
+    margin-left: 8px;
+    font-size: 1,5em;
+
+  }
+
+
+  .iconbar {
+    padding-top: 2%;
+    display: grid;
+    width: 75%;
+    font-size: 1.5em;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 30% 30%;
+    grid-gap: 25px 25px;
+
+
+
+  }
+
+
+
+  .exclamation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  main {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .leftright {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 0%;
+
+
+  }
+
+
+  #main {
+
+    margin-left: 15%;
+  }
+
 
   #searchbar {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 85%;
 
 
   }
@@ -695,25 +798,23 @@
     display: flex;        
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     background-color: #F2F2F2;
-    font-size: 40px;
   }
 
   #searchleft {
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #0065FC;
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 30px;
   }
   input {
 
@@ -728,331 +829,213 @@
   }
   input::placeholder{
     color: black;
-    font-size: 30px;
   }
 
-
-
-
-
-
-  .filtres {
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-size: 30px;
-
-  }
 
 
   .iconbar {
-    padding-top: 2%;
 
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 40% 40%;
-    grid-gap: 5%;
-    
-    
-    height: auto;
+    width: 70%;
+
+    display: flex;
+    justify-content: space-between;
+
+
+    align-content: center;
+
+
+  }
+  /*__________________________________________________________partie responsive left text (hebergements à Marseille)*/ 
+
+
+  .left {
+    padding: 3%;
     width: 100%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-right: 0%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 
   }
 
 
-  .icntxt {
-    background-color: white;
+  .photoleft {
+    margin-left: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 900px;
+
+  }
+
+  .one, .two, .three, .four, .five, .six  
+  {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    margin: 2%;
+    border-radius: 25px;
+  }
+
+
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+
+  }
+
+  .bottomtext h3, p, .star {
+
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    white-space: normal;
+    margin-left: 1%;
+    line-height: 10%;
+
+  }
+  .bottomtext h3 {
+    margin-top: 5%;
+
+  }
+  .bottomtext .star {
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  #afficher {
+
+    color: black;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+
+  /*__________________________________________________________partie responsive right text (Les plus populaires)*/
+
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 100%;
+
+
+  }
+
+  .titleicon {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #arrow {
+    margin-top: 5%; 
+
+
+  }
+
+  .photoright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
-    border-radius: 40px;
-    border: 3px #F2F2F2 solid;
-    margin-left: 0px;
     width: 100%;
 
   }
 
-  .txt {
-
-    font-size: 30px;
-    font-weight: bold;
+  .seven, .eight{  
+    width: 95%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 1%;
+    position: relative;
+    padding-right: 1%;
+    object-fit: cover;
 
   }
 
+  .nine {
 
 
+   width: 100%;
+   height: 600px;
+   border-radius: 20px;
+   margin: 1%;
+   position: relative;
+   padding-right: 1%;
+   object-fit: cover;
 
+ }
 
-}
 
-#undericon {
-
-  font-size: 30px;
-
-}
-
-.exclamation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  font-size: 30px;
-
-
-
-}
-
-main {
-
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 0%;
-  margin-right: 0%;
-
-
-}
-
-.leftright {
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-
-
-
-}
-
-
-#main {
-
-  margin-left: 15%;
-  font-size: 45px;
-}
-
-#menu a {
-  color: #0065FC;
-}
-
-#menu > a:hover {
-  border-top: none;
-  border-bottom: #0065FC solid 5px;
-  color: blueviolet;
-
-}
-
-#menu > a:active {
-  color: red;
-}
-
-
-
-#hebergements {
-
-  border-top: none;
-  width: 33%;
-  border-bottom: #F2F2F2 solid 5px;
-}
-
-
-#activité {
-
-  border-top: none;
-  width: 33%;
-  border-bottom: #F2F2F2 solid 5px;
-}
-
-#inscrire {
-
-  border-top: none;
-  width: 33%;
-  border-bottom: #F2F2F2 solid 5px;
-}
-/*__________________________________________________________partie responsive left text (hebergements à Marseille)*/ 
-
-
-.left {
-  padding: 3%;
-  width: 100%;
-  border-radius: 0px;
-  background-color: blue;
-  margin-right: 0%;  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
-
-.photoleft {
-
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  width: 90%;
-
-}
-
-
-.one, .two, .three, .four, .five, .six  
-{
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-  margin: 2%;
-  border-radius: 25px;
-}
-
-
-
-.bottom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 150%;
-  width: 100%;
-
-}
-
-.bottomtext h3, p, .star {
-
-  display: flex;
-  justify-content: center;
-
-  white-space: normal;
-  margin-left: 1%;
-  line-height: 10%;
-
-}
-.bottomtext h3 {
-  margin-top: 5%;
-  font-size: 30px;
-
-}
-.bottomtext .star {
-  color: #0065FC;
-
-
-}
-
-
-#afficher {
-
-  color: black;
-  display: flex;
-  justify-content: center;
-
-}
-
-
-
-/*__________________________________________________________partie responsive right text (Les plus populaires)*/
-
-
-.photoright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 15px;
-  width: 90%;
-  margin-right: 0%;
-
-
-}
-
-.seven, .eight, .nine {  
-  width: 100%;
-  height: 600px;
-  border-radius: 20px;
-  margin: 2%;
-  position: relative;
-  padding-right: 0%;
-  object-fit: cover;
-
-}
-
-
-
-.right {
-  display: flex;
-
-  width: 100%;
-  border-radius: 0px;
-  background-color: #F2F2F2;
-  margin-right: 0%;
-
-
-}
-
-.righttext {
+ .righttext {
   position: absolute;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 20px;
+  left: 60%;
   border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
   background-color: white;
   color: black;
-  height: 50%;
-  width: 98%;
-  margin-bottom: 0%;
-  right: 150px;
-  left: 0%;
-  bottom: 0%;
-  margin-right: 0px;
-
+  height: 100%;
+  width: 40%;
+  margin: 1%;
 }
-
-
-
 .righttext h3, .righttext p, .star {
 
   display: flex;
-  justify-content: center;
-  font-size: 12px;
+  justify-content: flex-start;
+  font-size: 40px;
   white-space: normal;
   margin-left: 1%;
 
 }
 
 .righttext h3 {
-  margin-top: 2%;
+  margin-top: 10%;
 
 }
 .righttext .star {
   color: #0065FC;
 
 }
-/*__________________________________________________________partie responsive bottom text (Activités à Marseille)*/
 
+/*__________________________________________________________partie responsive bottom text (Activités à Marseille)*/
 
 
 .bottom {
   width: 100%;
   height: 100%;
-  border-radius: 0px; 
-  margin-top: 150%;
+  border-radius: 40px; 
+  margin-top: 730%;
 }
 
 
 .photobottom {
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   height: 600px;
@@ -1075,7 +1058,7 @@ main {
 
 .eleven, .twelve, .fourteen, .fifteen
 {
-  width: 90%;
+  width: 100%;
   height: 600px;
   object-fit: cover;
   border-radius: 20px;
@@ -1086,7 +1069,7 @@ main {
 
 
 .ten, .thirteen {
-  width: 90%;
+  width: 100%;
   height: 600px;   
   border-radius: 20px;
   box-shadow: 10px 10px 10px #F2F2F2;
@@ -1103,8 +1086,10 @@ main {
   border-bottom-right-radius: 20px;
   background-color: white;
   color: black;
-  width: 210px;
+  width: 100%;
   height: 10%;
+  display: flex;
+  justify-content: center;
 
 
 
@@ -1114,32 +1099,37 @@ main {
 
   display: flex;
   justify-content: center;
-  font-size: 12px;
+  font-size: 40px;
   white-space: normal;
   margin-left: 2%;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .bottomtext3 {
   position: absolute;
-  top: 85%;
+  bottom: 0%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: white;
   color: black;
-  width: 215px;
-  height: 25%;
+  width: 100%;
+  height: 40%;
 }
 
 .bottomtext3 h3 {
 
   display: flex;
   justify-content: center;
-  font-size: 12px;
+  font-size: 40px;
   white-space: normal;
   margin-left: 2%;
-  margin-top: 3%;
+  margin-top: 4%;
 }
+
+
+
+
+
 
 
 
@@ -1154,38 +1144,50 @@ main {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
-  margin-top: 300%;
+  align-items: flex-start;
+
+  margin-top: 40%;
   background-color: #F2F2F2;
   border-width: 100%;
   padding: 2% 10% 2% 10%;
   font-size: 60%;
-  line-height: 5px;
+  line-height: 3px;
+  width: 100%;
+  margin-left: 10%;
+
+
+  margin-top: 365%;
 
 }
 
-#propos {
 
-  margin-left: 30%;
-}  
+
+
 
 
 
 a {
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 5%;
   padding-bottom: 5%;
   text-decoration: none;
+  font-size: 40px;
 
 
 }
 
 a:hover {
   color: blue;
+
+}
+
+h3 {
+
+  font-size: 40px;
 
 }
 
