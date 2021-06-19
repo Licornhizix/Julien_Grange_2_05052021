@@ -187,6 +187,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 1.5em;
 
 
       }
@@ -231,6 +232,19 @@
         margin-right: 0%;
       }
 
+      #exclampoint {
+        color: blue;
+        border: solid 1px grey;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        color: #0065FC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5em;
+
+      }
 
       p{
 
@@ -739,12 +753,13 @@
 
     background-color: #DEEBFF;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     color: #0065FC;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1em;
 
 
   }
@@ -761,8 +776,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 50px;
-    width: 420px;
+    height: 70px;
+    width: 450px;
     border-radius: 40px;
     border: 3px #F2F2F2 solid;
     margin-left: 8px;
@@ -791,6 +806,21 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+
+  }
+
+  #exclampoint {
+    color: blue;
+    border: solid 1px grey;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em;
+
 
   }
 
@@ -824,7 +854,7 @@
 
   #gps {
 
-    font-size: 2em;
+    font-size: 3em;
 
   }
   #searchbar {
@@ -843,8 +873,8 @@
     display: flex;        
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     background-color: #F2F2F2;
@@ -855,8 +885,8 @@
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #0065FC;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     
     justify-content: center;
     align-items: center;
@@ -868,8 +898,8 @@
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #0065FC;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -878,7 +908,7 @@
 
   input {
 
-    height: 100px;
+    height: 120px;
     width: 600px;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
