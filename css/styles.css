@@ -163,6 +163,7 @@
 
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
 
         align-content: center;
@@ -175,6 +176,18 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+      }
+
+      .btnleft {
+
+        display: flex;
+
+      }
+
+      .btnright {
+
+        display: flex;
+        
       }
 
       #icon {
@@ -682,6 +695,8 @@
   #inscrire-hight {
 
     display: flex;
+    color: blue;
+    font-weight: bold;
 
   }
 
@@ -749,6 +764,13 @@
 
   }
 
+  .txtfiltre {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+  }
+
   #icon {
 
     background-color: #DEEBFF;
@@ -787,25 +809,45 @@
 
 
   .iconbar {
-    padding-top: 2%;
-    display: flex;
+    width: 70%;
 
-    width: 100%;
-    font-size: 20px;
-    flex-flow: column wrap
-    
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+
+margin-left: 10%;
+        
+
 
 
 
   }
 
+  .btnleft {
 
+        display: flex;
+        flex-direction: column;
+
+
+      }
+
+      .btnright {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+}
 
   .exclamation {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    text-align: left;
+    white-space: nowrap;
+    height: 50px;
 
   }
 
@@ -816,13 +858,15 @@
     width: 20px;
     height: 20px;
     color: #0065FC;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: 0.5em;
 
 
   }
+
+
 
   main {
 
@@ -928,16 +972,8 @@
 
 
 
-  .iconbar {
-
-    width: 90%;
-
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-
-
-  }
+  
+  
   /*__________________________________________________________partie responsive left text (hebergements à Marseille)*/ 
 
 
