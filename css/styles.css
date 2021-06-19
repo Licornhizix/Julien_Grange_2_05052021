@@ -150,6 +150,12 @@
       }
 
 
+      #searchleftzoom {
+
+        display: none;
+      }
+
+
 
       .iconbar {
 
@@ -661,9 +667,9 @@
 
   #inscrire-hight {
 
-        display: flex;
+    display: flex;
 
-      }
+  }
 
   #activité {
     margin-left: 20%;
@@ -699,7 +705,7 @@
     height: 100%;
   }
 
- 
+
 
 
   nav {
@@ -827,7 +833,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-left: 5%;
+    margin-left: 8%;
 
 
   }
@@ -845,16 +851,31 @@
   }
 
   #searchleft {
+    display: none;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     background-color: #0065FC;
     height: 100px;
     width: 100px;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     color: white;
   }
+  #searchleftzoom {
+
+    display: flex;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #0065FC;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+
   input {
 
     height: 100px;
