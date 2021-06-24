@@ -526,27 +526,6 @@ margin-left: 3%;
   justify-content: space-between;
   height: 300px;
   flex-direction: column;
-<<<<<<< HEAD
-}
-
-header, nav, main {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-main {
-  display: flex;
-  justify-content: flex-start;
-  overflow: hidden;
-  width:90%;
-}
-
-.left {
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-  display: block;
-=======
 
 }
 
@@ -587,22 +566,10 @@ main {
   border-radius: 20px;
   box-shadow: 10px 10px 10px #F2F2F2;
   object-fit: cover;
->>>>>>> nearfinal
 
 }
 
 
-<<<<<<< HEAD
-footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 8%;
-  background-color: #F2F2F2;
-  border-width: 100%;
-  padding: 2% 10% 2% 25%;
-  font-size: 60%;
-  
-=======
 
 .bottomtext2 {
   position: absolute;
@@ -669,7 +636,6 @@ footer {
   padding: 2% 10% 2% 10%;
   width: 100%;
 
->>>>>>> nearfinal
 
 }
 
@@ -681,11 +647,6 @@ a {
   padding-top: 5%;
   padding-bottom: 5%;
   text-decoration: none;
-<<<<<<< HEAD
-  
-
-}
-=======
   font-size: 12px;
 
 
@@ -1147,10 +1108,7 @@ background-color: #F2F2F2;
     box-shadow: 0px 0px 15px #d3d3e7;
 
   }
->>>>>>> nearfinal
 
-a:hover {
-  color: blue;
   
 
   .bottomtext h3, p, .star {
@@ -1469,17 +1427,9 @@ a:hover {
 
 }
 
-<<<<<<< HEAD
-#menu > a:hover {
-  border-top: blue solid 1px;
-}
-
-#down {
-=======
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
 
 .bottomtext h3, .bottomtext p, .star {
->>>>>>> nearfinal
 
   
   font-size: 8px;
@@ -1522,14 +1472,10 @@ a:hover {
   
 }
 
-<<<<<<< HEAD
-#icon {
-=======
 footer {
   
   margin-top: 12%;
  
->>>>>>> nearfinal
 
 
 }
