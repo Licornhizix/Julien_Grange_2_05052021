@@ -342,7 +342,7 @@
   /* ______________________________________________________________Partie centrale (hebergements à Marseille)________________________________________________________*/
 
   .left {
-    padding: 0%;
+    padding: 3%;
     width: 80%;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -411,7 +411,10 @@
 
   #afficher {
     font-size: 15px;
-    padding-top: 10px;
+    
+
+    
+ 
 
   }
 
@@ -1420,6 +1423,62 @@ background-color: #F2F2F2;
 
   }
 
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+.bottomtext h3, .bottomtext p, .star {
+
+  
+  font-size: 8px;
+  
+
+}
+
+
+
+.righttext h3, .righttext p, .star {
+
+  
+  font-size: 8px;
+  
+
+}
+
+#hebergements {
+
+    
+    margin-right: 10%;
+  }
+
+  #inscrire-bottom {
+
+    margin-left: 10%;
+
+  }
+
+  .photoleft {
+    
+    grid-template-columns: 25% 25% 25%;
+   
+
+  }
+
+  .bottomtext3 {
+ 
+  width: 200px;
+  
+}
+
+footer {
+  
+  margin-top: 12%;
+ 
+
+
+}
 
 
 }
