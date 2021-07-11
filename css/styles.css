@@ -712,7 +712,7 @@
        }
 
        .right {
-         width: 100%;
+         width: 115%;
        }
 
        .left {
@@ -729,7 +729,7 @@
        .bottom {
          position: relative;
          width: 1050px;
-         margin-left: 0%;
+         margin-left: 10%;
        }
 
        .photobottom {
@@ -810,13 +810,14 @@
          display: flex;
          justify-content: space-around;
          align-items: center;
+         width: 120%;
        }
 
        .header-bottom {
          display: flex;
          justify-content: space-around;
          align-items: center;
-         width: 765px;
+         width: 120%;
          border-bottom: 3px #F2F2F2 solid;
        }
 
@@ -859,7 +860,7 @@
 
        .righttext {
          position: absolute;
-         left: 43%;
+         left: 45%;
          border-bottom-right-radius: 60px;
          border-top-right-radius: 60px;
          background-color: white;
