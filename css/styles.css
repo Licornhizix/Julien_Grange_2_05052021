@@ -25,8 +25,8 @@
 
 
        height: auto;
-       margin-left: 10%;
-       margin-right: 10%;
+       /* margin-left: 10%;
+       margin-right: 10%; */
 
 
      }
@@ -97,7 +97,9 @@
        justify-content: center;
        align-items: flex-start;
        flex-direction: column;
-       width: 100%;
+       width: 90%;
+       margin-left: 5%;
+       margin-right: 5%;
      }
 
      .undericon {
@@ -334,8 +336,9 @@
      /* ______________________________________________________________Partie centrale (hebergements à Marseille)________________________________________________________*/
 
      .left {
+       margin-left: 5%;
        padding: 3%;
-       width: 80%;
+       width: 70%;
        border-radius: 20px;
        background-color: #F2F2F2;
        margin-right: 5%;
@@ -351,8 +354,9 @@
        display: grid;
        grid-template-columns: 30% 30% 30%;
        grid-template-rows: 40% 40%;
-       grid-gap: 50px 50px;
+       grid-gap: calc(15px + 3%);
        margin-right: 2%;
+       grid-template: fit-content(100%);
 
 
      }
@@ -374,7 +378,7 @@
 
      .bottomtext {
        position: absolute;
-       bottom: -25px;
+       top: 80%;
        border-bottom-left-radius: 20px;
        border-bottom-right-radius: 20px;
        background-color: white;
@@ -426,6 +430,7 @@
        border-radius: 20px;
        background-color: #F2F2F2;
        width: 25%;
+       margin-right: 5%
      }
 
      .photoright {
@@ -448,7 +453,7 @@
 
      .seven,
      .eight {
-       width: 200px;
+       width: 97%;
        height: 150px;
        border-radius: 30px;
        margin: 1%;
@@ -457,7 +462,7 @@
      }
 
      .nine {
-       width: 200px;
+       width: 97%;
        height: 150px;
        border-radius: 30px;
        margin: 1%;
@@ -468,7 +473,7 @@
 
      .righttext {
        position: absolute;
-       left: 50%;
+       left: 55%;
        border-bottom-right-radius: 30px;
        border-top-right-radius: 30px;
        background-color: white;
@@ -512,10 +517,12 @@
      /* _________________________________________________________________Partie centrale (Activités à Marseille)_____________________________________________________*/
 
      .bottom {
-       width: 100%;
+       width: 90%;
        height: 100%;
        border-radius: 40px;
        margin-top: 5%;
+       margin-right: 5%;
+       margin-left: 5%;
      }
 
 
@@ -545,7 +552,7 @@
      .fourteen,
      .fifteen {
        width: 210px;
-       height: 130px;
+       height: 140px;
        object-fit: cover;
        border-radius: 20px;
        box-shadow: 10px 5px 5px #F2F2F2;
@@ -628,11 +635,17 @@
        justify-content: space-between;
        margin-top: 8%;
        background-color: #F2F2F2;
-       border-width: 100%;
-       padding: 2% 15% 4% 10% !important;
-       width: 100%;
+       /* border-width: 100%; */
+       /* padding: 2% 0% 4% 0% !important; */
+       /* padding-right: 0;
+       padding-left: 0;
+       margin-left: 0; */
 
-
+       padding: 0 0 0 25px;
+       border: none;
+       /* width: 100%; */
+       padding-left: 5%;
+       padding-right: 5%;
      }
 
 
@@ -671,7 +684,7 @@
 
        body {
          margin-left: 0%;
-         margin-right: 0px;
+         margin-right: 0%;
          display: flex;
          justify-content: center;
          align-items: flex-start;
@@ -699,7 +712,7 @@
        }
 
        .right {
-         width: 1050px;
+         width: 100%;
        }
 
        .left {
@@ -823,7 +836,7 @@
          flex-direction: column;
          font-weight: bolder;
          margin-left: 5%;
-         width: 765px;
+         width: 100%;
 
        }
 
@@ -832,7 +845,7 @@
          flex-direction: column;
          margin-top: 415%;
          justify-content: flex-start;
-         width: 1050px;
+         width: 120%;
        }
 
        .iconbar {
