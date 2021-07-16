@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <link href="fontawesome-free-5.15.3-web\css\all.css" rel="stylesheet"/>
+  <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet"/>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="icon" href="images/logo/favicon.png" type="image/png">
@@ -10,122 +10,169 @@
 
 <body>
 
-  <!--partie supérieur : logo + menu---------------------------------------------------------------------->
+  <!--partie supérieur : logo + menu-->
 
   <header>
-
-
-
-    <img class="logo" src="images/logo/Reservia.svg" alt="Reservia@3x.png"/>
-    <div id="menu">
-      <a href="#main" id="hebergements">Hébergements</a>
-      <a href="#activites" id="activité">Activités</a>
+    <div class="desktop"><img class="logo" src="images/logo/Reservia.svg" alt="Reservia@3x.png"/>
+     <div class="menu">
+      <a href="#arrow" id="hebergement">Hébergements</a>
+      <a href="#down" id="activité">Activités</a>
       <a href="#" id="inscrire">S'inscrire</a>
+    </div></div>
 
+    <div class="headmob">
+     <div class= "header-top">
+      <img class="logo" src="images/logo/Reservia.svg" alt="Reservia@3x.png"/>
+      <a href="#" id="inscrire-hight">S'inscrire</a>
     </div>
+    <div class="header-bottom">
+      <a href="#hight" id="hebergements">Hébergements</a>
+      <a href="#bottom" id="activités">Activités</a>
+    </div></div>
   </header>
 
-  <!--partie haute : barre de recherche et filtres -------------------------------------------------------------------------------------------->
+  <!--partie haute : barre de recherche et filtres -->
 
   <nav>
-    <h1>Trouvez votre hebergement pour des vacances de rêve</h1>
-    <p class="nature">En plein centre ville ou en pleine nature</p>
+    <h1 class="police1">Trouvez votre hebergement pour des vacances de rêve</h1>
+    <h1 class="undericon">En plein centre ville ou en pleine nature</h1> 
 
 
-    <!--barre de recherche --------------------------------------------------------------------------------------------------------------------->
+    <!--barre de recherche -->
 
 
     <div id="searchbar">
-      <div id="logosearch"><i class="fas fa-map-marker-alt"></i></div>
+      <div id="logosearch"><i class="fas fa-map-marker-alt" id="gps"></i></div>
       <input type="text" placeholder="Marseille, France" name="search">
-      <a href=""><span id="searchleft" type="submit">Rechercher</span></a>
+      <a href=""><span id="searchleft">Rechercher</span><span id="searchleftzoom"><i class="fas fa-search"></i></span></a>
     </div>
 
 
     <!--filtres-->
 
     <div class="filtres">
-<p >Filtres</p>
-    <div class="iconbar">
-      
 
-      <a href="" ><div class="icntxt"><i class="fas fa-money-bill-wave" id="icon"></i><p class="txt">Economique</p></div></a>
-      <a href="" ><div class="icntxt"><i class="fas fa-child" id="icon"></i><p class="txt">Familial</p class="txt" class="txt"></div></a>
-      <a href="" ><div class="icntxt"><i class="fas fa-heart" id="icon"></i><p class="txt">Romantique</p class="txt"></div></a>
-      <a href="" ><div class="icntxt"><i class="fas fa-dog" id="icon"></i><p class="txt">Animaux autorisés</p></div></a>
-    </div>
-  </div>
-    <div class="exclamation"><i class="fas fa-info-circle"></i>
-      <p id="undericon">Plus de 500 logements sont disponibles dans cette ville</p></div>
+      <div><p class="txt">Filtres</p></div>
+     
+      <div class="iconbar">
+        
 
-
-
-    </nav>
-
-    <!--partie centrale : 3 sous ensembles de photos-------------------------------------------------------------------------------------------------->
-
-    <main>
-      <div class="leftright">
-        <section class="left"> 
+        <div class="btnleft">
+          <a href="" ><div class="icntxt" id="icontxt1"><i class="fas fa-money-bill-wave icn"></i><p class="txt police3">Economique</p></div></a>
+          <a href="" ><div class="icntxt" id="icontxt2"><i class="fas fa-child icn"></i><p class="txt police3">Familial</p></div></a>
+          <a href="" ><div class="icntxt" id="icontxt3"><i class="fas fa-heart icn"></i><p class="txt police3">Romantique</p></div></a></div>
+          <div class="btnright">
+            <a href="" ><div class="icntxt" id="icontxt4"><i class="fas fa-dog icn"></i><p class="txt police3">Animaux autorisés</p></div></a></div>
+          </div>
+        </div>
+        <div class="exclamation"><div><i class="fas fa-info" id="exclampoint"></i></div>
+        <div><h1 class="undericon">Plus de 500 logements sont disponibles dans cette ville</h1></div></div>
 
 
-         <h2 id="main">Hébergements à Marseille</h2>
 
-         <div class=photoleft>
-          <a href="" class="clic"><div class="individual"><img class="one" src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" /><div class="bottomtext"><h3>Auberge de la Cannebière</h3><p>Nuit à partir de <b>25€</b></p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></i></div></div></div></a>
-          <a href="" class="clic"><div class="individual"><img class="two" src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel du port</h3><p>Nuit à partir de 52€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a>
-          <a href="" class="clic"><div class="individual"><img class="three" src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel les mouettes</h3><p>Nuit à partir de 76€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></i></div></div></div></a>
-          <a href="" class="clic"><div class="individual"><img class="four" src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel de la mer</h3><p>Nuit à partir de 46€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></i></div></div></div></a>
-          <a href="" class="clic"><div class="individual"><img class="five" src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" /><div class="bottomtext"><h3>Auberge le Panier</h3><p>Nuit à partir de <b>23€</b></p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></i></div></div></div></a>
-          <a href="" class="clic"><div class="individual"><img class="six" src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel chez Amina</h3><p>Nuit à partir de 96€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a></div>
-          <a href="#main" id="afficher">Afficher plus</a>
+        </nav>
 
-        </section>
-        <section class="right">
-          <div class="titleicon"><h2>Les plus populaires</h2>
-            <i class="fas fa-chart-line" id="arrow"></i></div>
-            <div class=photoright>
-              <a href="" class="clic"><div class="individual"><img class="seven" src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" /><div class="righttext"><h3>Hôtel le soleil du matin</h3><p>Nuit à partir de 128€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a>
-              <a href="" class="clic"><div class="individual"><img class="eight" src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" /><div class="righttext"><h3>Au coeur de l'eau Chambre d'hôtes</h3><p>Nuit à partir de 71€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></i></div></div></div></a>
-              <a href="" class="clic"><div class="individual"><img class="nine" src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" /><div class="righttext"><h3>Hôtel Tout bleu et Blanc</h3><p>Nuit à partir de 68€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></i></div></div></div></a>
+        <!--partie centrale : 3 sous ensembles de photos-->
+
+        <main>
+          <div class="photodesktop">
+
+            <div class="leftright">
+              <div class="left"> 
+               <div class="titlephoto"><h2>Hébergements à Marseille</h2></div>
+               <div class=photoleft>
+                <a href="" class="clic"><div class="individual"><img alt="photo" class="one" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" /><div class="bottomtext "><h3>Auberge de la Cannebière</h3><p>Nuit à partir de <b> 25€ </b></p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                <a href="" class="clic"><div class="individual"><img alt="photo" class="two" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" /><div class="bottomtext "><h3>Hôtel du port</h3><p>Nuit à partir de 52€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a>
+                <a href="" class="clic"><div class="individual"><img alt="photo" class="three" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel les mouettes</h3><p>Nuit à partir de 76€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                <a href="" class="clic"><div class="individual"><img alt="photo" class="four" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel de la mer</h3><p>Nuit à partir de 46€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                <a href="" class="clic"><div class="individual"><img alt="photo" class="five" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" /><div class="bottomtext "><h3>Auberge le Panier</h3><p>Nuit à partir de <b>23€</b></p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                <a href="" class="clic"><div class="individual"><img alt="photo" class="six" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" /><div class="bottomtext"><h3>Hôtel chez Amina</h3><p>Nuit à partir de 96€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a></div>
+                <a href="#main" class="afficher">Afficher plus</a>
+              </div>
+
+              <div class="right">
+                <div class="titlephoto"><h2>Les plus populaires</h2>
+                  <i class="fas fa-chart-line arrow"></i></div>
+                  <div class=photoright>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="seven" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" /><div class="righttext"><h3>Hôtel le soleil du matin</h3><p>Nuit à partir de 128€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="eight" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" /><div class="righttext"><h3>Au coeur de l'eau Chambre d'hôtes</h3><p>Nuit à partir de 71€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="nine" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" /><div class="righttext"><h3>Hôtel Tout bleu et Blanc</h3><p>Nuit à partir de 68€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bottom">
+                <div class="titlephoto"><h2>Activités à Marseille</h2></div>
+                <div class=photobottom>
+                  <div class="simple"><a href="" class="clic"><div class="individual"><img alt="photo" class="ten" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" /><div class="bottomtext2"><h3>Vieux Port</h3></div></div></a></div>
+                  <div class="dual"><a href="" class="clic"><div class="individual"><img alt="photo" class="eleven" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" /><div class="bottomtext3"><h3>Îles du Frioul</h3></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="twelve" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" /><div class="bottomtext3"><h3>Fort de Pomègues</h3></div></div></a></div>
+                  <div class="simple"><a href="" class="clic"><div class="individual"><img alt="photo" class="thirteen" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" /><div class="bottomtext2 police1"><h3>Parc National des Calanques</h3></div></div></a></div>
+                  <div class="dual"><a href="" class="clic"><div class="individual"><img alt="photo" class="fourteen" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" /><div class="bottomtext3"><h3>Parc Longchamp</h3></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="fifteen" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" /><div class="bottomtext3"><h3>Notre-Dame-de-la-Garde</h3></div></div></a></div>
+                </div>
+              </div>
             </div>
+            <div class= "mobile">
+              <div class="right" id="hight">
+                <div class="titlephoto"><h2>Les plus populaires</h2>
+                  <i class="fas fa-chart-line" id="arrow"></i></div>
+                  <div class=photoright>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="seven" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" /><div class="righttext police1"><h3>Hôtel le soleil du matin</h3><p>Nuit à partir de 128€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="eight" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" /><div class="righttext police1"><h3>Au coeur de l'eau Chambre d'hôtes</h3><p>Nuit à partir de 71€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="nine" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" /><div class="righttext police1"><h3>Hôtel Tout bleu et Blanc</h3><p>Nuit à partir de 68€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                  </div>
+                  
+                </div>
+                <div class="left"> 
 
-          </div>
-        </section>
 
-        <section class="bottom">
-          <h2 class="actmarseille" >Activités à Marseille</h2>
-          <div class=photobottom>
-            <div class="simple"><a href="" class="clic"><div class="individual"><img class="ten" src="images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" /><div class="bottomtext2"><h3>Vieux Port</h3></div></div></a></div>
-            <div class="dual"><a href="" class="clic"><div class="individual"><img class="eleven" src="images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" /><div class="bottomtext3"><h3>Îles du Frioul</h3></div></div></a>
-            <a href="" class="clic"><div class="individual"><img class="twelve" src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" /><div class="bottomtext3"><h3>Fort de Pomègues</h3></div></div></a></div>
-            <div class="simple"><a href="" class="clic"><div class="individual"><img class="thirteen" src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" /><div class="bottomtext2"><h3>Parc National des Calanques</h3></div></div></a></div>
-            <div class="dual"><a href="" class="clic"><div class="individual"><img class="fourteen" src="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" /><div class="bottomtext3"><h3>Parc Longchamp</h3></div></div></a>
-            <a href="" class="clic"><div class="individual"><img class="fifteen" src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" /><div class="bottomtext3"><h3>Notre-Dame-de-la-Garde</h3></div></div></a></div>
-          </div>
-        </section>
-      </main>
+                 <div class="titlephoto"><h2>Hébergements à Marseille</h2></div>
 
-      <!--pieds de page----------------------------------------------------------------------------------------------------------------------------------------->
+                 <div class=photoleft>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="one" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" /><div class="bottomtext police1"><h3>Auberge de la Cannebière</h3><p>Nuit à partir de <b>25€</b></p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="two" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" /><div class="bottomtext police1"><h3>Hôtel du port</h3><p>Nuit à partir de 52€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="three" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" /><div class="bottomtext police1"><h3>Hôtel les mouettes</h3><p>Nuit à partir de 76€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="four" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" /><div class="bottomtext police1"><h3>Hôtel de la mer</h3><p>Nuit à partir de 46€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="five" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" /><div class="bottomtext police1"><h3>Auberge le Panier</h3><p>Nuit à partir de <b>23€</b></p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star grey"></i></i></div></div></div></a>
+                  <a href="" class="clic"><div class="individual"><img alt="photo" class="six" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" /><div class="bottomtext police1"><h3>Hôtel chez Amina</h3><p>Nuit à partir de 96€</p><div class="star"><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></i></div></div></div></a></div>
+                  <a href="#main" class="afficher">Afficher plus</a>
 
-      <footer>
-        <div id="down">
-          <h3 id="propos">A propos</h3>   
-          <a href="">Fonctionnement du site</a>
-          <a href="">Conditions générales de vente</a>
-          <a href="">Données et confidentialité</a>   
-        </div>
-        <div id="down">
-          <h3>Nos hébergements</h3>
-          <a href="">Charte qualité</a>
-          <a href="">Soumettre votre hôtel</a>    
-        </div>
-        <div id="down">
-          <h3>Assistance</h3>
-          <a href="">Centre d'aide</a>
-          <a href="">Nous contacter</a>
-        </div>  
-      </footer>
-    </body>
-    </html>
+                </div>
+                
 
+                <div class="bottom" id="bottom">
+                  <div class="titlephoto"><h2>Activités à Marseille</h2></div>
+                  <div class=photobottom>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="ten" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" /><div class="bottomtext2 police1"><h3>Vieux Port</h3></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="eleven" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" /><div class="bottomtext3 police1"><h3>Îles du Frioul</h3></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="twelve" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" /><div class="bottomtext3 police1"><h3>Fort de Pomègues</h3></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="thirteen" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" /><div class="bottomtext2"><h3>Parc National des Calanques</h3></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="fourteen" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" /><div class="bottomtext3 police1"><h3>Parc Longchamp</h3></div></div></a>
+                    <a href="" class="clic"><div class="individual"><img alt="photo" class="fifteen" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" /><div class="bottomtext3 police1"><h3>Notre-Dame-de-la-Garde</h3></div></div></a>
+                  </div></div>
+                </div>
+              </main>
+
+              <!--pieds de page-->
+
+              <footer>
+                <div id="down">
+                  <h3 class="police1">A propos</h3>   
+                  <a href="">Fonctionnement du site</a>
+                  <a href="">Conditions générales de vente</a>
+                  <a href="">Données et confidentialité</a>   
+                </div>
+                <div>
+                  <h3 class="police1">Nos hébergements</h3>
+                  <a href="">Charte qualité</a>
+                  <a href="">Soumettre votre hôtel</a>    
+                </div>
+                <div>
+                  <h3 class="police1">Assistance</h3>
+                  <a href="">Centre d'aide</a>
+                  <a href="">Nous contacter</a>
+                </div>  
+              </footer>
+            </body>
+            </html>
