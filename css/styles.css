@@ -708,6 +708,7 @@
     .headmob {
       display: flex;
       flex-direction: column;
+      width: 300% !important;
     }
 
     .desktop {
@@ -734,6 +735,11 @@
       width: 1050px;
       margin-left: 10%;
     }
+
+    .mag {
+      width: 300% !important;
+    }
+
 
     .photobottom {
       display: flex;
@@ -1194,7 +1200,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 250%;
       margin-left: 10%;
 
     }
